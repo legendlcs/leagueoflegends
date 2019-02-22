@@ -1,8 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import Leaguefilter from './Leaguefilter'
+import Search from './Search'
 
 ReactDOM.render(
-    <Leaguefilter />,
+    <div>
+    <Search />
+    <Leaguefilter />
+    </div>,
     document.getElementById('root')
 )
